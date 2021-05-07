@@ -19,11 +19,36 @@ header{
     background-color: #fff;
 }
 
-a{
+header span a{
     background-color: gray;
     margin: 5px;
     padding: 5px;
     text-decoration: none;
     color: white;
     border-radius: 10px;
+}
+
+/* main */
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+/* riquadro */
+
+.immagine{
+    margin: 0 10px 10px;
+    height: 200px;
+    width: 300px;
+    background-image: url(https://picsum.photos/300/200);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.immagine span{
+    background-color: rgba(0, 0, 0, 0.5);
 }
